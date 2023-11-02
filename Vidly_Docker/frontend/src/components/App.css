@@ -1,0 +1,30 @@
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+}
+
+.centered-content {
+  width: 80%; /* Ajuste a largura desejada */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header,
+.compareMovie,
+.compareSerie {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px; /* Ajuste a margem desejada */
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+
+.Error {
+  color: red;
+}
